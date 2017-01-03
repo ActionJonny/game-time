@@ -1,0 +1,14 @@
+.game-canvas {
+  margin: 100px auto auto auto;
+  display: block;
+}
+
+#header {
+  width: 650px;
+  height: 85px;
+}
+
+#game {
+  background: url('../lib/images/Board.png') no-repeat;
+  background-position: bottom;
+}
