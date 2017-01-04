@@ -1,16 +1,20 @@
-.game-canvas {
-  border: 1px dashed;
-  margin: 100px auto auto auto;
+.game-canvas,
+.gamepiece {
+  margin: auto;
   display: block;
-}
-
-#header {
-  width: 650px;
-  height: 85px;
+  position: absolute;
 }
 
 #game {
   background: url('../lib/images/Board.png') no-repeat;
+  background-color: transparent;
   background-position: bottom;
-  z-index: 0;
+  z-index: 1;
+}
+
+#gamepiece {
+  background: url('../lib/images/Board.png') no-repeat;
+  background-color: transparent;
+  background-position: bottom;
+  z-index: 999;
 }
