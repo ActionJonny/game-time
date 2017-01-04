@@ -1,20 +1,12 @@
 .game-canvas,
 .gamepiece {
+  border: 2px dashed black;
   margin: auto;
   display: block;
   position: absolute;
 }
 
 #game {
-  background: url('../lib/images/Board.png') no-repeat;
-  background-color: transparent;
+  /*background-color: yellow;*/
   background-position: bottom;
-  z-index: 1;
-}
-
-#gamepiece {
-  background: url('../lib/images/Board.png') no-repeat;
-  background-color: transparent;
-  background-position: bottom;
-  z-index: 999;
 }
