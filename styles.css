@@ -6,7 +6,7 @@
 
 #game {
   /*background: url('../lib/images/Board.png') no-repeat;*/
-  background-color: #d3d3d3;
+  background-color: white;
   background-position: bottom;
   z-index: 1;
 }
