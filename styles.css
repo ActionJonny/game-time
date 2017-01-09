@@ -11,9 +11,17 @@
   z-index: 1;
 }
 
-/*#gamepiece {
-  background: url('../lib/images/Board.png') no-repeat;
-  background-color: transparent;
-  background-position: bottom;
-  z-index: 999;
-}*/
+
+.home-screen {
+  background: whitesmoke;
+  color: black;
+  text-align : center;
+  margin: auto;
+  display: block;
+  opacity: 0.9;
+  position: absolute;
+  width: 650px;
+  top: 43%;
+  left: 24.5%;
+  font-size: 20px;
+}
