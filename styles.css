@@ -17,11 +17,9 @@
   color: black;
   text-align : center;
   margin: auto;
-  display: block;
   opacity: 0.9;
-  position: absolute;
   width: 650px;
-  top: 43%;
-  left: 24.5%;
   font-size: 20px;
+  z-index: -1;
+  margin-top: -938px;
 }
