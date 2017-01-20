@@ -264,9 +264,6 @@
 /* 2 */
 /***/ function(module, exports) {
 
-	// var canvas = document.getElementById('game');
-	// var context = canvas.getContext('2d');
-
 	function Token(player, context, canvas) {
 	  this.width = 75;
 	  this.height = 75;
