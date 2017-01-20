@@ -286,13 +286,13 @@
 	};
 
 	Token.prototype.drawRed = function () {
-	  this.image.src = '../lib/Images/red_marker.jpg';
+	  this.image.src = '../lib/images/red_marker.jpg';
 	  this.context.drawImage(this.image, this.x, this.y, this.width, this.height);
 	  return this;
 	};
 
 	Token.prototype.drawBlack = function () {
-	  this.image.src = '../lib/Images/black_marker.jpg';
+	  this.image.src = '../lib/images/black_marker.jpg';
 	  this.context.drawImage(this.image, this.x, this.y, this.width, this.height);
 	  return this;
 	};
